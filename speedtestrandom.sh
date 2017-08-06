@@ -10,5 +10,6 @@ echo "Waiting for $m minutes, $s seconds."
 sleep $r
 
 ## execute command
+eval date
 echo "Running $c"
 eval $c
